@@ -3,10 +3,10 @@ import React from 'react'
 export default function Slider(props) {
     return (
         <div >
-            <div className='container' style={{ marginTop: '20px'}}>
+            <div className='container' style={{ marginTop: '144px'}}>
                 <div className='row'>
-                    <div className='col-8'style={{padding:'0 5px'}}>
-                        <div id="carouselExampleIndicators" className="carousel slide" data-ride="carousel">
+                    <div className='col-8' style={{padding:'0'}} >
+                        <div id="carouselExampleIndicators" className="carousel slide" data-ride="carousel" style={{paddingRight:'5px'}}>
                             <ol className="carousel-indicators">
                                 <li data-target="#carouselExampleIndicators" data-slide-to={0} className="active" />
                                 <li data-target="#carouselExampleIndicators" data-slide-to={1} />

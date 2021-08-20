@@ -53,6 +53,7 @@ export default function Sale(props) {
                                     ₫120.000
                                 </div>
                             </div>
+                            
                         </div>
                     </div>
                 </div>

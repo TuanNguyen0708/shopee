@@ -2,7 +2,7 @@ import React from 'react'
 
 export default function Home(props) {
     return (
-        <div style={{ backgroundColor: '#f7482e', width: '100%', height: '100%' }}>
+        <div style={{ backgroundColor: '#f7482e', width: '100%', position:'fixed',top:'0',zIndex:'20'}}>
             <div className='container' style={{ display: 'flex', justifyContent: 'space-between' }}>
                 <div>
                     <a href="#" style={{ textDecoration: 'none', color: '#fff', paddingRight: '10px', borderRight: '1px solid #fff' }}>Kênh Người Bán</a>
